@@ -6,7 +6,7 @@
 /*   By: tturna <tturna@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/05 15:30:40 by tturna            #+#    #+#             */
-/*   Updated: 2022/02/14 12:33:20 by tturna           ###   ########.fr       */
+/*   Updated: 2022/02/18 15:36:30 by tturna           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,5 +30,24 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	}
 	return (srcsize);
 }
+/*
+#include <stdio.h>
+#include <string.h>
+
+int	main()
+{
+	char string[] = "Selam";
+    char buffer[5];
+    int r;
+
+    r = ft_strlcpy(buffer, string, 6);
+
+    printf("String '%s' Buffer '%s', Src Uzunluk %d\n",
+            string,
+            buffer,
+            r
+          );
+}
+*/
 
 //hedefteki stringi kopyalayıp kayanağa yazdırır uzunluğunu verir

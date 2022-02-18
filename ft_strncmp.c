@@ -6,7 +6,7 @@
 /*   By: tturna <tturna@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/05 16:56:03 by tturna            #+#    #+#             */
-/*   Updated: 2022/02/14 13:07:58 by tturna           ###   ########.fr       */
+/*   Updated: 2022/02/18 15:38:40 by tturna           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,5 +31,27 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
+
+/*
+#include <stdio.h>
+#include <string.h>
+
+int main( void )
+{
+    const char *cp1 = "Bilgisayar";
+    const char *cp2 = "Bilgileri";
+    int ret;
+
+    ret = strncmp(cp1, cp2, 5);
+
+    if(ret<0) printf("cp1 karakter dizisi 
+	cp2 karakter dizisinden küçüktür!");
+    else if(ret>0) printf("cp2 karakter 
+	dizisi cp1 karakter dizisinden küçüktür!");
+    else printf("cp1 karakter dizisi cp2 karakter dizisine eşittir!");
+
+    return 0;
+}
+*/
 
 //s1 stringi s2 stirnginden uzunsa 1 değilse -1 dondürür

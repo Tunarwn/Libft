@@ -6,7 +6,7 @@
 /*   By: tturna <tturna@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/04 10:55:04 by tturna            #+#    #+#             */
-/*   Updated: 2022/02/14 13:49:57 by tturna           ###   ########.fr       */
+/*   Updated: 2022/02/18 15:37:26 by tturna           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,4 +25,5 @@ char	*ft_strtrim(char const *s1, char const *set)
 		i--;
 	return (ft_substr(s1, 0, i + 1));
 }
+
 //istediğin karakterleri yanlızca başta ve sonda varsa kırpar

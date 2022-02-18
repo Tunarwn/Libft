@@ -6,7 +6,7 @@
 /*   By: tturna <tturna@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/03 14:04:21 by tturna            #+#    #+#             */
-/*   Updated: 2022/02/14 13:07:55 by tturna           ###   ########.fr       */
+/*   Updated: 2022/02/18 15:38:06 by tturna           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,4 +39,20 @@ char	*ft_substr(const char *s, unsigned int start, size_t len)
 	return (str);
 }
 
-// verdiğin karakterden sonra istediğin uznluk kadarını yeni bi string oluşturur
+/*
+#include <stdio.h>
+
+int main()
+{
+    char src[] = "substr function Implementation";
+
+    int m = 7;
+    int n = 12;
+
+    char* dest = ft_substr(src, m, n);
+
+    printf("%s\n", dest);
+}
+*/
+
+// verdiğin karakterden sonra verdiğin aralık kadar yeni bi string oluşturur

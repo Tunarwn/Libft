@@ -6,7 +6,7 @@
 /*   By: tturna <tturna@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/05 17:17:48 by tturna            #+#    #+#             */
-/*   Updated: 2022/02/05 17:17:52 by tturna           ###   ########.fr       */
+/*   Updated: 2022/02/18 13:08:06 by tturna           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,3 +32,20 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (NULL);
 }
+/*
+#include <stdio.h>
+#include <string.h>
+
+
+int main () {
+   const char haystack[20] = "LowPoly";
+   const char needle[10] = "o";
+   char *ret;
+
+   ret = ft_strnstr(haystack, needle, 3);
+
+   printf("> : %s\n", ret);
+
+   return(0);
+}
+*/

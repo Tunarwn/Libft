@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strrch.c                                        :+:      :+:    :+:   */
+/*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tturna <tturna@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/05 16:54:46 by tturna            #+#    #+#             */
-/*   Updated: 2022/02/08 12:28:28 by tturna           ###   ########.fr       */
+/*   Updated: 2022/02/18 15:22:16 by tturna           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,20 @@ char	*ft_strrchr(const char *s, int c)
 		ptr = (char *)(s + i);
 	return (ptr);
 }
+
+/*
+#include <string.h>
+
+int main () {
+   int len;
+   const char str[] = "tuna.test.42";
+   const char ch = '.';
+   char *ret;
+
+   ret = ft_strrchr(str, ch);
+
+   printf("|%c| > |%s|\n", ch, ret);
+
+   return(0);
+}
+*/
